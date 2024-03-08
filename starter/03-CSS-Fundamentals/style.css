@@ -1,0 +1,62 @@
+/* Do not repeat yoursef */
+/* list selector */
+h1,
+li,
+p,
+h1,
+h2 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1,
+li {
+  text-transform: uppercase;
+}
+
+/* desendent selector */
+/* changes the immediate child of footer p */
+/* not robust */
+/* we caan make it more robust by making a desendent1 desendent2 disendent3 ... */
+/* ed article header p to select p as the last child element with header -> aertical as its progressing parent */
+footer p {
+  color: brown;
+}
+
+/* selects all the p elements on the page */
+h1 {
+  color: blue;
+  font-family: 26px;
+  font-style: italic;
+  text-align: center;
+}
+
+/* selects all the p elements on the page */
+h2 {
+  font-size: 40px;
+}
+
+/* selects all the p elements on the page */
+/* p {
+  font-size: 22px;
+  /* line height will be 1.5 times the text height 
+  line-height: 1.5;
+} */
+
+/* note how we dont apply the stype on the ul or li */
+.remove-style {
+  /* removes default styling */
+  list-style: none;
+}
+
+#authoer {
+  font-family: "Times New Roman", Times, serif;
+  color: aqua;
+}
+
+.related-aauthor {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lawngreen;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 50px;
+}
