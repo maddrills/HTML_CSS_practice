@@ -33,6 +33,7 @@ h1 {
 /* selects all the p elements on the page */
 h2 {
   font-size: 40px;
+  color: rgb(69, 69, 69);
 }
 
 /* selects all the p elements on the page */
@@ -59,4 +60,97 @@ h2 {
   padding: 30px;
   border-radius: 10px;
   margin: 50px;
+}
+
+/* .first-li {
+  font-weight: bold;
+} */
+
+/* will select all the firstchild li elsements of its parent element <ol> or <ul> */
+/* remebr li must be the first child wont work if any othere element comes befor it */
+li:first-child {
+  font-weight: bold;
+}
+
+/* we can do last child */
+
+li:last-child {
+  background-color: rgb(150, 150, 150);
+}
+
+/* we can also specify which child  insted of 2 you can but odd even in the arg*/
+li:nth-child(2) {
+  background-color: blueviolet;
+}
+
+/* Link styling rember LVHA  link -> visited -> hover -> active*/
+a:link {
+  color: aqua;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(93, 255, 255);
+}
+a:hover {
+  line-height: 21px;
+  text-decoration: underline wavy orange;
+}
+
+a:active {
+  background-color: blue;
+  font-style: italic;
+}
+
+/* resolving conflict */
+/* psudo classes have higher priority */
+
+#copyright {
+  color: red;
+}
+
+.copyright {
+  color: blue;
+}
+
+.text {
+  color: yellow;
+}
+
+/* not encoraged to do important has the highest priority */
+footer p {
+  color: green !important;
+}
+
+.navigater {
+  background-color: bisque;
+  width: 700px;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.navigater a {
+  padding: 15px;
+  display: inline;
+  background-color: aliceblue;
+  font-size: 20px;
+}
+
+body {
+  position: relative;
+}
+
+.like_love {
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+
+  /* stays stuck to an abslut postion */
+  /* position: absolute; */
+
+  /*  to a relative position in this case the body*/
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
 }
