@@ -21,7 +21,7 @@ body {
 }
 
 .main-header {
-  background-color: #f7f7f7;
+  background-color: #c0c0c0;
   /* padding: 20px;
   padding-left: 40px;
   padding-right: 40px; */
@@ -265,3 +265,36 @@ footer p {
 nav p {
   font-size: 18px;
 } */
+
+.author-img {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.author {
+  padding-left: 100px;
+  padding-top: 10px;
+  float: left;
+}
+
+/* this will remove the element from its parent element */
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+/* you shoud add this under the parent element */
+.clear {
+  clear: both;
+}
+
+/* clear fix hack  psudo element*/
+.clear-fix::after {
+  clear: both;
+  content: "";
+  /* need this because clear float only works on float elements */
+  display: block;
+}
