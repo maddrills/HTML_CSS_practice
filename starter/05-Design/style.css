@@ -80,6 +80,7 @@ h1 {
 
 img {
   width: 100%;
+  border-radius: 10px;
 }
 
 /* FEATURES */
@@ -184,4 +185,17 @@ footer {
 .btn--small {
   font-size: 14px;
   padding: 8px 12px;
+}
+
+/* SVG icons  */
+.feature-icon {
+  stroke: #008a60;
+  width: 32px;
+  height: 32px;
+}
+
+.bulet-points {
+  stroke: #008a60;
+  width: 24px;
+  height: 24px;
 }
