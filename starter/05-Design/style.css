@@ -69,6 +69,9 @@ h1 {
   line-height: 1.11;
   letter-spacing: -1px;
   word-spacing: 1px;
+
+  /* text-shadow */
+  text-shadow: 0 10px 10px rgba(0, 0, 0, 0.082);
 }
 
 .header-text {
@@ -198,4 +201,9 @@ footer {
   stroke: #008a60;
   width: 24px;
   height: 24px;
+}
+
+/* horizontal vertical (blur or spread) optional(scale up) color  */
+.chair {
+  box-shadow: 0 10px 0 rgba(0, 0, 0, 0.07);
 }
