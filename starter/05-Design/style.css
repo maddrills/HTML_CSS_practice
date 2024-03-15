@@ -11,6 +11,10 @@ MAIN_COLOR #087f5b
 SECONDARY COLOR #343a40
 */
 
+/* 
+
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -32,7 +36,7 @@ body {
 
 header,
 section {
-  margin-bottom: 48px;
+  margin-bottom: 80px;
 }
 
 h2 {
@@ -56,7 +60,7 @@ header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 80px;
-  margin-top: 48px;
+  margin-top: 64px;
 }
 
 .header-text-box {
@@ -64,7 +68,7 @@ header {
 }
 
 h1 {
-  margin-bottom: 24px;
+  margin-bottom: 32px;
   font-size: 41.89px;
   line-height: 1.11;
   letter-spacing: -1px;
@@ -143,7 +147,7 @@ h3 {
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .chair-details li:last-child {
@@ -195,6 +199,7 @@ footer {
   stroke: #008a60;
   width: 32px;
   height: 32px;
+  margin-bottom: 24px;
 }
 
 .bulet-points {
@@ -205,5 +210,9 @@ footer {
 
 /* horizontal vertical (blur or spread) optional(scale up) color  */
 .chair {
-  box-shadow: 0 10px 0 rgba(0, 0, 0, 0.07);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.07);
+}
+
+.testimonial-author {
+  color: #c3fae8;
 }
