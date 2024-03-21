@@ -1,0 +1,72 @@
+/* 
+---- 01 typography system
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+
+FONT weight:
+
+LINE height:
+
+SPACING system(px)
+
+
+Primary Color : #e67e22
+
+Tints:
+Shades
+Accents
+Greys
+
+
+SHADOWS
+
+
+BORDER-RADIUS
+
+
+WHITESPACE
+
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+html {
+  /* having a fixed font size wont make the page dinamic */
+  /* insted use %  */
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* now the user can cahange the text size and a calculation will be performed */
+  font-size: 62.5%;
+}
+
+.test {
+  /* width: 1000px; */
+  background-color: red;
+  /* padding: 100px; */
+
+  /* max-width: 1000px; */
+
+  /* or use dinamic resizing rem 
+  (root element reference by feault
+   font size of html tag is 16px) */
+
+  /* 50 * 16  */
+  max-width: 50rem;
+  padding: 4rem;
+  font-size: 2rem;
+  color: #fff;
+}
