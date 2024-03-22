@@ -57,6 +57,26 @@ html {
 /* *************** */
 /* general Re usable Components */
 /* *************** */
+
+/* reusable 2 * 2 grid */
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+.grid--col--num2 {
+  grid-template-columns: 1fr 1fr;
+}
+.grid--col--num3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* a container template */
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -235,4 +255,29 @@ html {
 
 .delevered-text span {
   color: #cf711f;
+}
+
+/* after top section */
+
+.section-how {
+  padding: 19.6px 0;
+  background-color: orangered;
+}
+
+.section-how div {
+  padding: 100px;
+  font-size: 50px;
+}
+
+.section-how div:nth-child(1) {
+  background-color: aqua;
+}
+.section-how div:nth-child(2) {
+  background-color: blue;
+}
+.section-how div:nth-child(3) {
+  background-color: violet;
+}
+.section-how div:nth-child(4) {
+  background-color: green;
 }
