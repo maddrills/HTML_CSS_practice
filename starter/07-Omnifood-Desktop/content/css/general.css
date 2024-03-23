@@ -70,6 +70,7 @@ html {
 .grid--col--num3 {
   grid-template-columns: repeat(3, 1fr);
 }
+
 .grid--center-v {
   align-items: center;
 }
@@ -161,4 +162,25 @@ html {
   align-items: center;
   gap: 9.6rem;
   /* background-color: aqua; */
+}
+
+.meal-title {
+  font-size: 2rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.meal-attributes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+.meal-attributes {
+  font-size: 1.8rem;
+}
+
+.meal-img {
+  width: 100%;
 }
