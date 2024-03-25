@@ -233,20 +233,6 @@ strong {
   padding: 3.2rem 4.8rem 4.8rem 4.8rem;
 }
 
-.list {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 1.6rem;
-}
-
-.list-item {
-  font-size: 1.8rem;
-  display: flex;
-  align-items: center;
-  gap: 1.6rem;
-}
-
 .link:link,
 .link:visited {
   color: #cf711f;
@@ -340,3 +326,5 @@ strong {
 .gallery-item img:hover {
   transform: scale(1.1);
 }
+
+/* Billing */
