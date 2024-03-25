@@ -280,3 +280,30 @@ strong {
 .alignCenter {
   text-align: center;
 }
+
+.section-meals {
+  padding: 3rem;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4.8rem;
+}
+
+.testimonial-img {
+  width: 6.4rem;
+  border-radius: 50%;
+}
+
+/* the text */
+.testimonial-test {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 1.2rem;
+}
+
+.testimonial-name {
+  font-size: 1.6rem;
+  color: #777;
+}
