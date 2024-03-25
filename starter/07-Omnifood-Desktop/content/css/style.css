@@ -253,6 +253,7 @@
 .plan-text {
   font-weight: 1.6rem;
   line-height: 1.6;
+  font-size: 1.8rem;
   color: #6f6f6f;
 }
 .plan-price span {
@@ -264,4 +265,39 @@
 .plan-sign-up {
   text-align: center;
   margin-top: 4.8rem;
+}
+
+.pricing-plan {
+  background-color: #f5e3d2;
+  border-radius: 11px;
+  width: 75%;
+}
+
+.pricing-plan--starter {
+  /* this will shift the right card to the left  */
+  justify-self: end;
+  background-color: #fff;
+  border: 2px solid #f5e3d2;
+  padding: 4.6rem;
+}
+
+.pricing-plan--complete {
+  padding: 4.8rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.pricing-plan--complete::after {
+  content: "Best Value";
+  position: absolute;
+  top: 5%;
+  right: -18%;
+
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+  background-color: #ffd43b;
+
+  padding: 0.8rem 8.2rem;
+  transform: rotate(45deg);
 }

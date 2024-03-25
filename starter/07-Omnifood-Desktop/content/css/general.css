@@ -64,11 +64,20 @@ html {
   row-gap: 9.6rem;
   column-gap: 6.4rem;
 }
+
+.grid:last-child {
+  margin-top: 6.8rem;
+  margin-bottom: 9.8rem;
+}
 .grid--col--num2 {
   grid-template-columns: 1fr 1fr;
 }
 .grid--col--num3 {
   grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--col--num4 {
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .grid--center-v {
