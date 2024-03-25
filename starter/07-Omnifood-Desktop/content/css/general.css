@@ -285,6 +285,7 @@ strong {
   background-color: #fdf2e9;
   display: grid;
   grid-template-columns: 60fr 40fr;
+  /* this is how i got the picturest aligned around the center */
   align-items: center;
 }
 
