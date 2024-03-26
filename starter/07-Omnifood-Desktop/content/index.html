@@ -545,7 +545,50 @@
     <!-- | Call For Action Or Form | -->
     <section class="section-cta">
       <div class="container cta">
-        <div class="cta-text-box">CTA</div>
+        <div class="cta-text-box">
+          <h2 class="heading-secondary">We offer a free sample meal</h2>
+          <p class="cta-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe,
+            reprehenderit illo. Eaque placeat ipsa earum temporibus illo saepe
+            maxime, delectus similique ab amet ratione odit voluptatum dolorem
+            tenetur aliquam voluptatem.
+          </p>
+
+          <!-- take input from user -->
+          <form class="cta-form" action="#">
+            <div>
+              <label for="fullname"> Full Name</label>
+              <input
+                id="fullname"
+                type="text"
+                placeholder="Mathew Francis"
+                required
+              />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input
+                id="emal"
+                type="email"
+                placeholder="mathew@gmail.com"
+                required
+              />
+            </div>
+            <div>
+              <!-- drop of options -->
+              <label for="select-where">Where did you here from us?</label>
+              <select id="select-where" required>
+                <option value="">Plese choose an option</option>
+                <option value="friends">Friends and family</option>
+                <option value="youtube">YouTube Video</option>
+                <option value="podcast">PodCast</option>
+                <option value="ad">Facebook Add</option>
+                <option value="others">Others</option>
+              </select>
+            </div>
+            <button class="btn">Sign up now</button>
+          </form>
+        </div>
         <div
           class="cta-img-box"
           role="img0"
