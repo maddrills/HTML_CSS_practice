@@ -364,3 +364,11 @@ strong {
   text-align: center;
   margin-top: 2.6rem;
 }
+
+/* removing the enoying border from form elements when selected */
+*:focus {
+  outline: none;
+  /* outline: 4px dotted #2e1907;
+  outline-offset: 4px; */
+  box-shadow: 0 0 0 0.8rem #cf711f5b;
+}

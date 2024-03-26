@@ -24,6 +24,7 @@
   padding: 4.8rem 0 9.6rem 0;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   color: #fff;
@@ -57,7 +58,7 @@
 
   /* trick to add border incide shadow working -> downArow spread color*/
   /* inset will make the shadow come incide the box */
-  box-shadow: inset 0 0 20px 3px #fff;
+  box-shadow: inset 0 0 0 3px #fff;
 }
 
 /* space to the right for button important is used as priority*/
@@ -314,7 +315,6 @@
   /* background-color: #e67e22; */
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.17);
   border-radius: 11px;
-  height: 50rem;
   /* the gradient */
   background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
   overflow: hidden;
@@ -352,4 +352,60 @@
   grid-template-columns: 1fr 1fr;
   column-gap: 3.2rem;
   row-gap: 2.4rem;
+}
+.cta-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+.cta-form input,
+.cta-form select {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  /* by default form elements input button dropdown dont inharit font style */
+  /* use the below to overide the default behaviour  */
+  /* inharit can also be used on color etc */
+  font-family: inherit;
+  border: none;
+  background-color: #fdf2e9;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.cta-form input::placeholder {
+  color: #aaa;
+}
+
+/* aditional button styling */
+.btn {
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.btn-form {
+  background-color: #2e1907;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn-form:hover {
+  background-color: #fff;
+  color: #555;
+}
+
+.cta-form input:focus {
+  outline: none;
+  /* outline: 4px dotted #2e1907;
+  outline-offset: 4px; */
+  box-shadow: 0 0 0 0.8rem rgba(255, 202, 155, 0.363);
+}
+
+.cta-form select {
+}
+
+.cta-form button {
 }
