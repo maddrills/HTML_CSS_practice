@@ -80,6 +80,10 @@ html {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.grid--col--num5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
 .grid--center-v {
   align-items: center;
 }

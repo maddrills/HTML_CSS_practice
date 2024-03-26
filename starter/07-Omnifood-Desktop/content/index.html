@@ -19,7 +19,9 @@
 
     <div class="test">TEST</div> -->
     <header class="header">
-      <img class="logo" alt="Omnifood logo" src="img/omnifood-logo.png" />
+      <a href="#">
+        <img class="logo" alt="Omnifood logo" src="img/omnifood-logo.png" />
+      </a>
       <!-- navigation implimentation -->
       <nav class="main-nav">
         <ul class="main-nav-list">
@@ -417,185 +419,248 @@
           </figure>
         </div>
       </section>
+
+      <section>
+        <div class="section-pricing">
+          <div class="container">
+            <span class="subheading">Billing</span>
+            <h2 class="heading-secondary">
+              Eat well without Emptying your pockets
+            </h2>
+          </div>
+        </div>
+        <div class="container grid grid--col--num2">
+          <div class="pricing-plan pricing-plan--starter">
+            <header class="plan-header">
+              <p class="plan-name">Starter</p>
+              <p class="plan-price"><span>$</span>399</p>
+              <p class="plan-text">per month its just 30$ per meal</p>
+            </header>
+            <!-- listing -->
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>1 meal per day</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Orders Are between one to 9</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Delevery is Free</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="close-outline"></ion-icon>
+                <span>get access to latest recipes</span>
+              </li>
+            </ul>
+            <div class="plan-sign-up">
+              <a href="#" class="btn btn--full">Start Eating Well</a>
+            </div>
+            <!-- end of listing -->
+          </div>
+
+          <div class="pricing-plan pricing-plan--complete">
+            <header class="plan-header">
+              <p class="plan-name">Starter</p>
+              <p class="plan-price"><span>$</span>699</p>
+              <p class="plan-text">per month its just 30$ per meal</p>
+            </header>
+
+            <!-- listing -->
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>2 meal per day</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>24 / 7</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Delevery is Free</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>get access to latest recipes</span>
+              </li>
+            </ul>
+            <div class="plan-sign-up">
+              <a href="#" class="btn btn--full">Start Eating Well</a>
+            </div>
+            <!-- end of listing -->
+          </div>
+        </div>
+
+        <div class="container grid">
+          <aside class="plan-details">
+            Price can be canseled anytime Both plans include the following:
+          </aside>
+        </div>
+
+        <div class="container grid grid--col--num4">
+          <div class="feature">
+            <ion-icon class="feature-icon" name="infinite-outline"></ion-icon>
+            <p class="feature-title">Never cook Again!</p>
+            <p class="feature-text">
+              Feature 1 Lorem ipsum, dolor sit amet consectetur adipisicing
+              elit. Minima ab expedita quae, corrupti a molestiae quo, aliquam
+              nihil explicabo placeat excepturi natus praesentium cum deleniti
+              harum beatae vel perspiciatis sed?
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="pause-outline"></ion-icon>
+            <p class="feature-title">No Wast</p>
+            <p class="feature-text">
+              Feature 1 Lorem ipsum, dolor sit amet consectetur adipisicing
+              elit. Minima ab expedita quae, corrupti a molestiae quo, aliquam
+              nihil explicabo placeat excepturi natus praesentium cum deleniti
+              harum beatae vel perspiciatis sed?
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="leaf-outline"></ion-icon>
+            <p class="feature-title">With Care and Love</p>
+            <p class="feature-text">
+              Feature 1 Lorem ipsum, dolor sit amet consectetur adipisicing
+              elit. Minima ab expedita quae, corrupti a molestiae quo, aliquam
+              nihil explicabo placeat excepturi natus praesentium cum deleniti
+              harum beatae vel perspiciatis sed?
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="fast-food-outline"></ion-icon>
+            <p class="feature-title">Assassin</p>
+            <p class="feature-text">
+              Feature 1 Lorem ipsum, dolor sit amet consectetur adipisicing
+              elit. Minima ab expedita quae, corrupti a molestiae quo, aliquam
+              nihil explicabo placeat excepturi natus praesentium cum deleniti
+              harum beatae vel perspiciatis sed?
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- | Call For Action Or Form | -->
+      <section class="section-cta">
+        <div class="container cta">
+          <div class="cta-text-box">
+            <h2 class="heading-secondary">We offer a free sample meal</h2>
+            <p class="cta-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe,
+              reprehenderit illo. Eaque placeat ipsa earum temporibus illo saepe
+              maxime, delectus similique ab amet ratione odit voluptatum dolorem
+              tenetur aliquam voluptatem.
+            </p>
+
+            <!-- take input from user -->
+            <form class="cta-form" action="#">
+              <div>
+                <label for="fullname"> Full Name</label>
+                <input
+                  id="fullname"
+                  type="text"
+                  placeholder="Mathew Francis"
+                  required
+                />
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input
+                  id="emal"
+                  type="email"
+                  placeholder="mathew@gmail.com"
+                  required
+                />
+              </div>
+              <div>
+                <!-- drop of options -->
+                <label for="select-where">Where did you here from us?</label>
+                <select id="select-where" required>
+                  <option value="">Please choose an option</option>
+                  <option value="friends">Friends and family</option>
+                  <option value="youtube">YouTube Video</option>
+                  <option value="podcast">PodCast</option>
+                  <option value="ad">Facebook Add</option>
+                  <option value="others">Others</option>
+                </select>
+              </div>
+              <button class="btn btn-form">Sign up now</button>
+            </form>
+          </div>
+          <div
+            class="cta-img-box"
+            role="img0"
+            aria-label="Woman Enjoying Food"
+          ></div>
+        </div>
+      </section>
     </main>
-    <section>
-      <div class="section-pricing">
-        <div class="container">
-          <span class="subheading">Billing</span>
-          <h2 class="heading-secondary">
-            Eat well without Emptying your pockets
-          </h2>
-        </div>
-      </div>
-      <div class="container grid grid--col--num2">
-        <div class="pricing-plan pricing-plan--starter">
-          <header class="plan-header">
-            <p class="plan-name">Starter</p>
-            <p class="plan-price"><span>$</span>399</p>
-            <p class="plan-text">per month its just 30$ per meal</p>
-          </header>
-          <!-- listing -->
-          <ul class="list">
-            <li class="list-item">
-              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-              <span>1 meal per day</span>
+
+    <footer class="footer">
+      <div class="container grid grid--col--num5">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img class="logo" alt="Omnifood logo" src="img/omnifood-logo.png" />
+          </a>
+
+          <ul class="social-links">
+            <li>
+              <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
             </li>
-            <li class="list-item">
-              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-              <span>Orders Are between one to 9</span>
+            <li>
+              <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
             </li>
-            <li class="list-item">
-              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-              <span>Delevery is Free</span>
-            </li>
-            <li class="list-item">
-              <ion-icon class="list-icon" name="close-outline"></ion-icon>
-              <span>get access to latest recipes</span>
+            <li>
+              <a href="#"><ion-icon name="logo-snapchat"></ion-icon></a>
             </li>
           </ul>
-          <div class="plan-sign-up">
-            <a href="#" class="btn btn--full">Start Eating Well</a>
-          </div>
-          <!-- end of listing -->
+
+          <p class="coppyright">
+            Coppyright &copy; 2027 by Omifood, all rights reserved
+          </p>
         </div>
-
-        <div class="pricing-plan pricing-plan--complete">
-          <header class="plan-header">
-            <p class="plan-name">Starter</p>
-            <p class="plan-price"><span>$</span>699</p>
-            <p class="plan-text">per month its just 30$ per meal</p>
-          </header>
-
-          <!-- listing -->
-          <ul class="list">
-            <li class="list-item">
-              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-              <span>2 meal per day</span>
-            </li>
-            <li class="list-item">
-              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-              <span>24 / 7</span>
-            </li>
-            <li class="list-item">
-              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-              <span>Delevery is Free</span>
-            </li>
-            <li class="list-item">
-              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-              <span>get access to latest recipes</span>
-            </li>
+        <div class="address-col">
+          <p class="footer-heading"></p>
+          <address class="contacts">
+            <p>Address: 623 Harrison St., 2nd Floor, San Francisco, CA 94107</p>
+            <p>
+              <a href="tel:415-201-6370">415-201-6370</a><br />
+              <a href="mailto:hello@omifood.com">hello@omifood</a>
+            </p>
+          </address>
+        </div>
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a href="#">Create Account</a></li>
+            <li><a href="#">Sign in</a></li>
+            <li><a href="#">iOS app</a></li>
+            <li><a href="#">Android app</a></li>
           </ul>
-          <div class="plan-sign-up">
-            <a href="#" class="btn btn--full">Start Eating Well</a>
-          </div>
-          <!-- end of listing -->
-        </div>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a href="#">About Omnifood</a></li>
+            <li><a href="#">For Business</a></li>
+            <li><a href="#">Cooking partners</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a href="#">Recipe directory</a></li>
+            <li><a href="#">Help center</a></li>
+            <li><a href="#">Privacy & terms</a></li>
+          </ul>
+        </nav>
       </div>
-
-      <div class="container grid">
-        <aside class="plan-details">
-          Price can be canseled anytime Both plans include the following:
-        </aside>
-      </div>
-
-      <div class="container grid grid--col--num4">
-        <div class="feature">
-          <ion-icon class="feature-icon" name="infinite-outline"></ion-icon>
-          <p class="feature-title">Never cook Again!</p>
-          <p class="feature-text">
-            Feature 1 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Minima ab expedita quae, corrupti a molestiae quo, aliquam nihil
-            explicabo placeat excepturi natus praesentium cum deleniti harum
-            beatae vel perspiciatis sed?
-          </p>
-        </div>
-        <div class="feature">
-          <ion-icon class="feature-icon" name="pause-outline"></ion-icon>
-          <p class="feature-title">No Wast</p>
-          <p class="feature-text">
-            Feature 1 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Minima ab expedita quae, corrupti a molestiae quo, aliquam nihil
-            explicabo placeat excepturi natus praesentium cum deleniti harum
-            beatae vel perspiciatis sed?
-          </p>
-        </div>
-        <div class="feature">
-          <ion-icon class="feature-icon" name="leaf-outline"></ion-icon>
-          <p class="feature-title">With Care and Love</p>
-          <p class="feature-text">
-            Feature 1 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Minima ab expedita quae, corrupti a molestiae quo, aliquam nihil
-            explicabo placeat excepturi natus praesentium cum deleniti harum
-            beatae vel perspiciatis sed?
-          </p>
-        </div>
-        <div class="feature">
-          <ion-icon class="feature-icon" name="fast-food-outline"></ion-icon>
-          <p class="feature-title">Assassin</p>
-          <p class="feature-text">
-            Feature 1 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Minima ab expedita quae, corrupti a molestiae quo, aliquam nihil
-            explicabo placeat excepturi natus praesentium cum deleniti harum
-            beatae vel perspiciatis sed?
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- | Call For Action Or Form | -->
-    <section class="section-cta">
-      <div class="container cta">
-        <div class="cta-text-box">
-          <h2 class="heading-secondary">We offer a free sample meal</h2>
-          <p class="cta-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe,
-            reprehenderit illo. Eaque placeat ipsa earum temporibus illo saepe
-            maxime, delectus similique ab amet ratione odit voluptatum dolorem
-            tenetur aliquam voluptatem.
-          </p>
-
-          <!-- take input from user -->
-          <form class="cta-form" action="#">
-            <div>
-              <label for="fullname"> Full Name</label>
-              <input
-                id="fullname"
-                type="text"
-                placeholder="Mathew Francis"
-                required
-              />
-            </div>
-            <div>
-              <label for="email">Email</label>
-              <input
-                id="emal"
-                type="email"
-                placeholder="mathew@gmail.com"
-                required
-              />
-            </div>
-            <div>
-              <!-- drop of options -->
-              <label for="select-where">Where did you here from us?</label>
-              <select id="select-where" required>
-                <option value="">Please choose an option</option>
-                <option value="friends">Friends and family</option>
-                <option value="youtube">YouTube Video</option>
-                <option value="podcast">PodCast</option>
-                <option value="ad">Facebook Add</option>
-                <option value="others">Others</option>
-              </select>
-            </div>
-            <button class="btn btn-form">Sign up now</button>
-          </form>
-        </div>
-        <div
-          class="cta-img-box"
-          role="img0"
-          aria-label="Woman Enjoying Food"
-        ></div>
-      </div>
-    </section>
+    </footer>
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
