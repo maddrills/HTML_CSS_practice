@@ -68,7 +68,7 @@
 /* media queries  */
 /* they apply a style according to the screen size */
 
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
   .section-hero {
     background-color: orangered;
   }
@@ -79,7 +79,7 @@
     border: 20px dashed rgb(255, 255, 255);
     background-color: blue;
   }
-}
+} */
 
 .hero {
   max-width: 130rem;
