@@ -19,3 +19,39 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+/* 1200 / 16 = about 75 */
+@media (max-width: 75em) {
+  /* resposive units */
+  /* now because we used rem that is deoendent on the font-size: 62.5% declared on the html tag */
+  /* so you can change it here to scale down the wholw page */
+  html {
+    /* 9 / 16 = 0.5625 */
+    font-size: 56.25%;
+  }
+  .grid {
+    column-gap: 3.4rem;
+    row-gap: 6.4rem;
+  }
+
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+  .heading-tertiary {
+    font-size: 2.4rem;
+  }
+
+  .header {
+    padding: 0 3.2rem;
+  }
+  .hero {
+    gap: 4.8rem;
+  }
+  .main-nav-list {
+    gap: 3.2rem;
+  }
+
+  .testimonials-container {
+    padding: 9.6rem 3.2rem;
+  }
+}
